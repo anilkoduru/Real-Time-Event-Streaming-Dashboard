@@ -6,7 +6,16 @@ A real-time pipeline that streams **GitHub events → Kafka → Elasticsearch �
 - Producer fetches GitHub events and pushes to Kafka  
 - Consumer reads from Kafka and indexes into Elasticsearch  
 - Kibana dashboards for real-time analytics  
-- Fully containerized with Docker Compose  
+- Fully containerized with Docker Compose
+
+## ▶️ Run the Project with Docker
+1. **Clone this repo**
+   ```bash
+   git clone https://github.com/<your-username>/Real-Time-Event-Streaming-Dashboard.git
+2. **Start all services**
+   ```bash
+    cd Real-Time-Event-Streaming-Dashboard
+    docker-compose up --build
 
 ## 🏗️ Architecture
 ```mermaid
